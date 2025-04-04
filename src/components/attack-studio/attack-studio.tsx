@@ -28,8 +28,10 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
   const [selectedPreset, setSelectedPreset] = useState<AnimationPreset>('slide');
   const [selectedEasing, setSelectedEasing] = useState<EasingDefinition>('backOut');
   const [duration, setDuration] = useState(1000);
-  const [scale, setScale] = useState(1);
-  const [opacity, setOpacity] = useState(1);
+  const [startScale, setStartScale] = useState(100);
+  const [endScale, setEndScale] = useState(100);
+  const [startOpacity, setStartOpacity] = useState(100);
+  const [endOpacity, setEndOpacity] = useState(100);
   const [animationType, setAnimationType] = useState<'image' | 'gif'>('image');
   const [imageUrl, setImageUrl] = useState('');
 
@@ -121,8 +123,10 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
         duration,
         easing: selectedEasing,
         preset: selectedPreset,
-        scale,
-        opacity
+        startScale: startScale / 100,
+        endScale: endScale / 100,
+        startOpacity: startOpacity / 100,
+        endOpacity: endOpacity / 100
       }
     };
 
@@ -191,56 +195,55 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
                   left: '50%',
                   transform: 'translate(-50%, -50%)'
                 }}
+                initial={{ 
+                  x: -150 + (path[0].x / 400) * 300,
+                  y: -100 + (path[0].y / 400) * 200
+                }}
+                animate={{
+                  x: path.map(p => -150 + (p.x / 400) * 300),
+                  y: path.map(p => -100 + (p.y / 400) * 200)
+                }}
+                transition={{
+                  duration: duration / 1000,
+                  ease: selectedEasing,
+                  times: path.map((_, i) => i / (path.length - 1))
+                }}
+                onAnimationComplete={() => {
+                  setPreview(false);
+                  setIsAnimating(false);
+                }}
               >
                 <motion.div
-                  initial={{ 
-                    x: -150 + (path[0].x / 400) * 300,
-                    y: -100 + (path[0].y / 400) * 200
+                  className="w-full h-full relative"
+                  initial={{
+                    scale: startScale / 100,
+                    opacity: startOpacity / 100
                   }}
                   animate={{
-                    x: path.map(p => -150 + (p.x / 400) * 300),
-                    y: path.map(p => -100 + (p.y / 400) * 200)
+                    x: selectedPreset === 'shake' ? [-10, 10, -10, 10, 0] : 0,
+                    scale: selectedPreset === 'bounce' ? [startScale / 100, (startScale / 100) * 1.2, endScale / 100] :
+                           endScale / 100,
+                    rotate: selectedPreset === 'spin' ? [0, 180, 360] : 0,
+                    opacity: selectedPreset === 'flash' ? [startOpacity / 100, 0, endOpacity / 100] :
+                            selectedPreset === 'fade' ? [startOpacity / 100, (startOpacity + endOpacity) / 200, endOpacity / 100] :
+                            endOpacity / 100
                   }}
                   transition={{
-                    duration: duration / 1000,
-                    ease: selectedEasing,
-                    times: path.map((_, i) => i / (path.length - 1))
+                    duration: selectedPreset === 'shake' ? 0.5 : 1,
+                    repeat: selectedPreset === 'shake' ? 2 : 0,
+                    ease: 'easeInOut'
                   }}
                 >
-                  <motion.div
-                    className="w-full h-full relative"
-                    animate={{
-                      x: selectedPreset === 'shake' ? [-10, 10, -10, 10, 0] : 0,
-                      scale: selectedPreset === 'bounce' ? [1, 1.2, 1, 1.2, 1] : 1,
-                      rotate: selectedPreset === 'spin' ? [0, 180, 360] : 0,
-                      opacity: selectedPreset === 'flash' ? [1, 0, 1, 0, 1] :
-                              selectedPreset === 'fade' ? [1, 0.5, 1] : 1
-                    }}
-                    transition={{
-                      duration: selectedPreset === 'shake' ? 0.5 : 1,
-                      repeat: selectedPreset === 'shake' ? 2 : 0,
-                      ease: 'easeInOut'
-                    }}
-                  >
-                    {imageUrl && (
-                      <Image
-                        src={imageUrl}
-                        alt="Animation"
-                        fill
-                        className="object-contain"
-                        unoptimized
-                      />
-                    )}
-                  </motion.div>
+                  {imageUrl && (
+                    <Image
+                      src={imageUrl}
+                      alt="Animation"
+                      fill
+                      className="object-contain"
+                      unoptimized
+                    />
+                  )}
                 </motion.div>
-                <motion.div
-                  initial={false}
-                  animate={{ opacity: 1 }}
-                  onAnimationComplete={() => {
-                    setPreview(false);
-                    setIsAnimating(false);
-                  }}
-                />
               </motion.div>
             )}
           </div>
@@ -316,33 +319,71 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
 
           <ImagePicker value={imageUrl} onChange={setImageUrl} />
 
-          <label className="text-sm font-medium">
-            Opacité
-            <input
-              type="range"
-              value={opacity}
-              onChange={(e) => setOpacity(parseFloat(e.target.value))}
-              min={0}
-              max={1}
-              step={0.1}
-              className="w-full"
-            />
-            <span className="text-xs text-muted-foreground">{opacity}</span>
-          </label>
+          <div className="space-y-4">
+            <div>
+              <label className="text-sm font-medium block">
+                Opacité début (%)
+                <input
+                  type="range"
+                  value={startOpacity}
+                  onChange={(e) => setStartOpacity(parseInt(e.target.value))}
+                  min={0}
+                  max={100}
+                  step={1}
+                  className="w-full"
+                />
+                <span className="text-xs text-muted-foreground">{startOpacity}%</span>
+              </label>
+            </div>
 
-          <label className="text-sm font-medium">
-            Échelle
-            <input
-              type="range"
-              value={scale}
-              onChange={(e) => setScale(parseFloat(e.target.value))}
-              min={0.1}
-              max={3}
-              step={0.1}
-              className="w-full"
-            />
-            <span className="text-xs text-muted-foreground">×{scale}</span>
-          </label>
+            <div>
+              <label className="text-sm font-medium block">
+                Opacité fin (%)
+                <input
+                  type="range"
+                  value={endOpacity}
+                  onChange={(e) => setEndOpacity(parseInt(e.target.value))}
+                  min={0}
+                  max={100}
+                  step={1}
+                  className="w-full"
+                />
+                <span className="text-xs text-muted-foreground">{endOpacity}%</span>
+              </label>
+            </div>
+
+            <div>
+              <label className="text-sm font-medium block">
+                Échelle début (%)
+                <input
+                  type="range"
+                  value={startScale}
+                  onChange={(e) => setStartScale(parseInt(e.target.value))}
+                  min={10}
+                  max={300}
+                  step={1}
+                  className="w-full"
+                />
+                <span className="text-xs text-muted-foreground">{startScale}%</span>
+              </label>
+            </div>
+
+            <div>
+              <label className="text-sm font-medium block">
+                Échelle fin (%)
+                <input
+                  type="range"
+                  value={endScale}
+                  onChange={(e) => setEndScale(parseInt(e.target.value))}
+                  min={10}
+                  max={300}
+                  step={1}
+                  className="w-full"
+                />
+                <span className="text-xs text-muted-foreground">{endScale}%</span>
+              </label>
+            </div>
+          </div>
         </div>
       </div>
     </div>

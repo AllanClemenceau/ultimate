@@ -71,8 +71,10 @@ export interface Attack {
     duration: number;
     easing: EasingDefinition;
     preset: AnimationPreset;
-    scale: number;
-    opacity: number;
+    startScale: number;
+    endScale: number;
+    startOpacity: number;
+    endOpacity: number;
     rotation?: number; // rotation en degrés
   };
 
