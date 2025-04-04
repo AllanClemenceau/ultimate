@@ -19,7 +19,8 @@ export type AnimationPreset =
   | 'spin'       // Rotation
   | 'bounce'     // Rebond
   | 'flash'      // Clignotement
-  | 'fade'       // Fondu
+  | 'fadeIn'     // Apparition progressive
+  | 'fadeOut'    // Disparition progressive
   | 'slide'      // Glissement
   | 'scale'      // Changement d'échelle
   | 'wave'       // Ondulation

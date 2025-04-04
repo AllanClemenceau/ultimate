@@ -6,6 +6,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'placehold.co',
       },
+      {
+        protocol: 'https',
+        hostname: 'f.hellowork.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media1.giphy.com',
+      },
     ],
   },
 }

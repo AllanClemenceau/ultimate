@@ -142,7 +142,7 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
           <canvas
             ref={canvasRef}
             width={400}
-            height={400}
+            height={225}
             onMouseDown={startDrawing}
             onMouseMove={draw}
             onMouseUp={stopDrawing}
@@ -173,8 +173,8 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
       {/* Colonne de droite : Prévisualisation */}
       <div className="flex flex-col gap-4">
         {/* Zone de prévisualisation style Pokémon */}
-        <div className="relative bg-[#1a1b1e] rounded-lg overflow-hidden border border-border flex-1">
-          <div className="aspect-video relative bg-gradient-to-b from-blue-500/20 to-purple-500/20 sticky top-0">
+        <div className="relative bg-muted rounded-lg overflow-hidden border border-border flex-1">
+          <div className="aspect-video relative bg-gradient-to-b from-blue-500/30 to-purple-500/30">
             {/* Grille de fond */}
             <div className="absolute inset-0" style={{
               backgroundImage: `
@@ -197,11 +197,11 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
                 }}
                 initial={{ 
                   x: -150 + (path[0].x / 400) * 300,
-                  y: -100 + (path[0].y / 400) * 200
+                  y: -100 + (path[0].y / 225) * 200
                 }}
                 animate={{
                   x: path.map(p => -150 + (p.x / 400) * 300),
-                  y: path.map(p => -100 + (p.y / 400) * 200)
+                  y: path.map(p => -100 + (p.y / 225) * 200)
                 }}
                 transition={{
                   duration: duration / 1000,
@@ -220,28 +220,35 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
                     opacity: startOpacity / 100
                   }}
                   animate={{
-                    x: selectedPreset === 'shake' ? [-10, 10, -10, 10, 0] : 0,
-                    scale: selectedPreset === 'bounce' ? [startScale / 100, (startScale / 100) * 1.2, endScale / 100] :
-                           endScale / 100,
-                    rotate: selectedPreset === 'spin' ? [0, 180, 360] : 0,
-                    opacity: selectedPreset === 'flash' ? [startOpacity / 100, 0, endOpacity / 100] :
-                            selectedPreset === 'fade' ? [startOpacity / 100, (startOpacity + endOpacity) / 200, endOpacity / 100] :
-                            endOpacity / 100
+                    x: selectedPreset === 'shake' ? [-10, 10, -10, 10, -10, 10, -10, 10, 0] : 0,
+                    scale: selectedPreset === 'bounce' ? Array.from({ length: Math.floor((duration / 1000) * 2) }, (_, i) => 
+                      i % 2 === 0 ? startScale / 100 : (startScale / 100) * 1.2
+                    ).concat([endScale / 100]) :
+                    endScale / 100,
+                    rotate: selectedPreset === 'spin' ? Array.from({ length: Math.floor((duration / 1000) * 2) }, (_, i) => 
+                      i * 180
+                    ).concat([360]) : 0,
+                    opacity: selectedPreset === 'flash' ? Array.from({ length: Math.floor((duration / 1000) * 2) }, (_, i) => 
+                      i % 2 === 0 ? startOpacity / 100 : 0
+                    ).concat([endOpacity / 100]) :
+                    selectedPreset === 'fadeIn' ? [0, startOpacity / 100] :
+                    selectedPreset === 'fadeOut' ? [startOpacity / 100, 0] :
+                    endOpacity / 100
                   }}
                   transition={{
-                    duration: selectedPreset === 'shake' ? 0.5 : 1,
-                    repeat: selectedPreset === 'shake' ? 2 : 0,
-                    ease: 'easeInOut'
+                    duration: duration / 1000,
+                    ease: selectedEasing,
+                    repeat: selectedPreset === 'shake' ? Math.floor((duration / 1000) * 2) : 0
                   }}
                 >
                   {imageUrl && (
-                    <Image
-                      src={imageUrl}
-                      alt="Animation"
-                      fill
-                      className="object-contain"
-                      unoptimized
-                    />
+                    <div className="relative w-full h-full">
+                      <img
+                        src={imageUrl.startsWith('data:') ? imageUrl : `/api/proxy-image?url=${encodeURIComponent(imageUrl)}`}
+                        alt="Animation"
+                        className="absolute inset-0 w-full h-full object-contain"
+                      />
+                    </div>
                   )}
                 </motion.div>
               </motion.div>
@@ -265,7 +272,8 @@ export function AttackStudio({ attack, onSave, autoPreview = true, initialAttack
               <option value="spin">Spin</option>
               <option value="shake">Shake</option>
               <option value="flash">Flash</option>
-              <option value="fade">Fade</option>
+              <option value="fadeIn">Fade In</option>
+              <option value="fadeOut">Fade Out</option>
             </select>
           </label>
 

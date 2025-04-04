@@ -1,7 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-import Image from 'next/image';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 
 interface ImagePickerProps {
@@ -11,6 +10,7 @@ interface ImagePickerProps {
 
 export function ImagePicker({ value, onChange }: ImagePickerProps) {
   const [isBase64, setIsBase64] = useState(false);
+  const [proxiedUrl, setProxiedUrl] = useState(value);
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -32,7 +32,8 @@ export function ImagePicker({ value, onChange }: ImagePickerProps) {
           type="text"
           value={value}
           onChange={(e) => {
-            onChange(e.target.value);
+            const newValue = e.target.value;
+            onChange(newValue);
             setIsBase64(false);
           }}
           placeholder="URL de l'image ou GIF"
@@ -53,12 +54,10 @@ export function ImagePicker({ value, onChange }: ImagePickerProps) {
 
       {value && (
         <div className="relative aspect-square w-32 mx-auto border rounded overflow-hidden">
-          <Image
-            src={value}
+          <img
+            src={isBase64 ? value : `/api/proxy-image?url=${encodeURIComponent(value)}`}
             alt="Preview"
-            fill
-            className="object-contain"
-            unoptimized={isBase64}
+            className="absolute inset-0 w-full h-full object-contain"
           />
         </div>
       )}
