@@ -54,6 +54,20 @@ export function WorldMap({
     setMap(null);
   }, []);
 
+  const createMarkerElement = useCallback((markerData: NewsMarker) => {
+    const markerElement = document.createElement('div');
+    markerElement.className = 'marker-container';
+    markerElement.innerHTML = `
+      <div class="marker cursor-pointer bg-primary hover:bg-primary/90 text-primary-foreground rounded-full p-3 shadow-lg transform transition-transform hover:scale-110">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+      </div>
+    `;
+    return markerElement;
+  }, []);
+
   useEffect(() => {
     if (map && isLoaded && window.google) {
       // Nettoyer les marqueurs existants
@@ -65,10 +79,11 @@ export function WorldMap({
         const marker = new AdvancedMarkerElement({
           map,
           position: markerData.position,
-          title: markerData.title
+          title: markerData.title,
+          content: createMarkerElement(markerData)
         });
 
-        marker.addEventListener('gmp-click', () => onMarkerClick?.(markerData.id));
+        marker.addListener('gmp-click', () => onMarkerClick?.(markerData.id));
         return marker;
       });
 
@@ -78,7 +93,7 @@ export function WorldMap({
         newMarkers.forEach(marker => marker.map = null);
       };
     }
-  }, [map, markers, onMarkerClick, isLoaded]);
+  }, [map, markers, onMarkerClick, isLoaded, createMarkerElement]);
 
   if (!isLoaded) {
     return (
@@ -100,7 +115,11 @@ export function WorldMap({
           disableDefaultUI: true,
           mapId: 'ultimate_news_map',
           backgroundColor: '#1d2c4d',
-          tilt: 0
+          tilt: 0,
+          streetViewControl: false,
+          mapTypeControl: false,
+          fullscreenControl: false,
+          clickableIcons: false
         }}
         mapContainerClassName="w-full aspect-[16/9] rounded-lg"
       >
