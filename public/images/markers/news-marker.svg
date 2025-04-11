@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Marqueur de base -->
+  <path d="M16 2L30 16L16 30L2 16L16 2Z" fill="#FF3E00"/>
+  
+  <!-- Contour pixelisé -->
+  <path d="M16 4L28 16L16 28L4 16L16 4Z" fill="#FF6B3D"/>
+  
+  <!-- Point central -->
+  <rect x="12" y="12" width="8" height="8" fill="white"/>
+</svg>

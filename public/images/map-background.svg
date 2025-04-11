@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grille de fond -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  
+  <!-- Éléments de la carte -->
+  <g opacity="0.15">
+    <!-- Cercles décoratifs -->
+    <circle cx="200" cy="150" r="80" stroke="white" stroke-width="2"/>
+    <circle cx="600" cy="300" r="100" stroke="white" stroke-width="2"/>
+    <circle cx="400" cy="225" r="150" stroke="white" stroke-width="2"/>
+    
+    <!-- Lignes de connexion -->
+    <path d="M 200 150 L 400 225 M 400 225 L 600 300" stroke="white" stroke-width="2"/>
+    
+    <!-- Points d'intérêt -->
+    <circle cx="200" cy="150" r="5" fill="white"/>
+    <circle cx="400" cy="225" r="5" fill="white"/>
+    <circle cx="600" cy="300" r="5" fill="white"/>
+  </g>
+</svg>

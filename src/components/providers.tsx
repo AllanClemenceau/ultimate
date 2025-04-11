@@ -1,6 +1,7 @@
 'use client';
 
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import { ProgressionProvider } from '@/contexts/progression-context';
 
 type ProvidersProps = {
   children: React.ReactNode;
@@ -13,7 +14,9 @@ export function Providers({ children }: ProvidersProps) {
       defaultTheme="system"
       enableSystem
     >
-      {children}
+      <ProgressionProvider>
+        {children}
+      </ProgressionProvider>
     </NextThemesProvider>
   );
 }
