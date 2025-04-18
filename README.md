@@ -1,70 +1,43 @@
-# Ultimate667 Platform/Game
+# Ultimate Project
 
-An interactive platform/game blending RPG elements, turn-based combat, and underground culture.
-
-## Overview
-
-Ultimate667 is a unique gaming platform that offers users on PC and Mobile platforms a way to experience and interact with current events through the lens of underground culture and music, specifically related to Freeze Corleone/667.
+A modern web application built with Next.js 14, featuring real-time news visualization on an interactive map.
 
 ## Features
 
-- RPG elements with character creation/progression
-- Turn-based combat using music as attacks
-- User Generated Content (UGC)
-- AI-driven narrative elements
-- Real-world context integration
-- Multiplayer cooperative features
+- Interactive world map with news markers
+- Real-time news updates from various sources
+- Automatic image optimization and caching
+- Category-based news filtering
+- Responsive design for all devices
 
-## Development
+## Tech Stack
 
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-- Git
-
-### Tech Stack
-
-- Next.js 14 (App Router)
+- Next.js 14 with App Router
 - TypeScript
 - Tailwind CSS
-- Shadcn UI
-- Supabase
-- Vercel AI SDK
+- Google Maps Integration
+- News API Integration
 
 ## Getting Started
 
 1. Clone the repository
-```bash
-git clone [repository-url]
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env.local` file with required API keys:
+   ```
+   NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+   NEWS_API_KEY=your_news_api_key
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-2. Install dependencies
-```bash
-npm install
-# or
-yarn install
-```
+## License
 
-3. Run the development server
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-## Project Structure
-
-```
-src/
-  components/     # Reusable UI components
-  features/       # Feature-specific components and logic
-  hooks/         # Custom React hooks
-  types/         # TypeScript type definitions
-  utils/         # Utility functions
-  app/           # Next.js App Router pages and layouts
-  styles/        # Global styles and Tailwind config
-```
+MIT
 
 ## Contributing
 
