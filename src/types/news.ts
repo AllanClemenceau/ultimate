@@ -2,10 +2,8 @@ export type NewsCategory =
   | 'geopolitique'
   | 'economie'
   | 'technologie'
-  | 'sport'
-  | 'culture'
-  | 'environnement'
-  | 'science';
+  | 'science'
+  | 'environnement';
 
 export interface Location {
   lat: number;
@@ -14,10 +12,17 @@ export interface Location {
 
 export interface NewsMarker {
   id: string;
-  position: Location;
+  position: {
+    lat: number;
+    lng: number;
+  };
   title: string;
   category: NewsCategory;
   description: string;
+  date: string;
+  source: string;
   imageUrl?: string;
+  content: string;
+  readMoreUrl?: string;
   relatedNewsIds?: string[];
 }

@@ -2,92 +2,91 @@
 
 import { useState } from 'react';
 import { WorldMap } from '@/components/world-map/world-map';
-import type { NewsMarker } from '@/types/news';
-
-// Données temporaires pour tester
-const mockNews: NewsMarker[] = [
-  {
-    id: 'news1',
-    position: { lat: 48.866667, lng: 2.333333 },
-    title: 'Tensions diplomatiques à Paris',
-    category: 'geopolitique',
-    description: 'Les négociations sur le climat atteignent un point critique lors du sommet international.'
-  },
-  {
-    id: 'news2',
-    position: { lat: 40.7128, lng: -74.0060 },
-    title: 'Wall Street en effervescence',
-    category: 'economie',
-    description: 'Une nouvelle technologie bouleverse les marchés financiers traditionnels.'
-  },
-  {
-    id: 'news3',
-    position: { lat: 35.6762, lng: 139.6503 },
-    title: 'Innovation technologique à Tokyo',
-    category: 'technologie',
-    description: 'Une startup japonaise dévoile une avancée majeure en intelligence artificielle.'
-  },
-  {
-    id: 'news4',
-    position: { lat: 51.5074, lng: -0.1278 },
-    title: 'Découverte scientifique à Londres',
-    category: 'science',
-    description: 'Des chercheurs britanniques font une percée dans la fusion nucléaire.'
-  },
-  {
-    id: 'news5',
-    position: { lat: -33.8688, lng: 151.2093 },
-    title: 'Alerte environnementale à Sydney',
-    category: 'environnement',
-    description: 'Un nouveau phénomène climatique inquiète les scientifiques.'
-  },
-];
+import { NewsDetails } from '@/components/news/news-details';
+import { NewsFilters } from '@/components/news/news-filters';
+import type { NewsMarker, NewsCategory } from '@/types/news';
+import { useNews } from '@/hooks/use-news';
 
 export default function MissionsPage() {
-  const [selectedNews, setSelectedNews] = useState<string | null>(null);
-  const [mapCenter, setMapCenter] = useState({ lat: 20, lng: 0 });
-  const [mapZoom, setMapZoom] = useState(2);
+  const [selectedNews, setSelectedNews] = useState<NewsMarker | null>(null);
+  const [mapCenter, setMapCenter] = useState({ lat: 46.227638, lng: 2.213749 });
+  const [mapZoom, setMapZoom] = useState(5);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [selectedCategories, setSelectedCategories] = useState<NewsCategory[]>([]);
+
+  const { news = [], isLoading, isError, refresh } = useNews(selectedCategories);
+
+  console.log('MissionsPage - News:', { news, isLoading, isError });
 
   const handleMarkerClick = (newsId: string) => {
-    setSelectedNews(newsId);
-    const news = mockNews.find(n => n.id === newsId);
-    if (news) {
-      setMapCenter(news.position);
-      setMapZoom(6);
+    const newsItem = news.find((n: NewsMarker) => n.id === newsId);
+    if (newsItem) {
+      setSelectedNews(newsItem);
+      setDialogOpen(true);
+      setMapCenter(newsItem.position);
+      setMapZoom(8);
     }
   };
+
+  const handleCategoryToggle = (category: NewsCategory) => {
+    setSelectedCategories(prev =>
+      prev.includes(category)
+        ? prev.filter(c => c !== category)
+        : [...prev, category]
+    );
+  };
+
+  if (isError) {
+    return (
+      <div className="min-h-screen p-8">
+        <h1 className="text-4xl font-bold mb-8">Actualités Mondiales</h1>
+        <div className="text-red-500">
+          Une erreur est survenue lors du chargement des actualités.
+          <button
+            onClick={() => refresh()}
+            className="ml-2 text-blue-500 hover:underline"
+          >
+            Réessayer
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen p-8">
       <h1 className="text-4xl font-bold mb-8">Actualités Mondiales</h1>
       
+      {/* Filtres de catégories */}
+      <NewsFilters
+        selectedCategories={selectedCategories}
+        onCategoryToggle={handleCategoryToggle}
+      />
+      
       {/* Carte interactive */}
-      <div className="mb-8">
+      <div className="mb-8 relative">
+        {isLoading && (
+          <div className="absolute inset-0 bg-background/50 backdrop-blur-sm flex items-center justify-center z-50">
+            <div className="animate-pulse text-lg">Chargement des actualités...</div>
+          </div>
+        )}
         <WorldMap
-          markers={mockNews}
+          markers={news}
           onMarkerClick={handleMarkerClick}
           center={mapCenter}
           zoom={mapZoom}
         />
       </div>
 
-      {/* Détails de l'actualité sélectionnée */}
-      {selectedNews && (
-        <div className="bg-background/80 backdrop-blur-sm border rounded-lg p-6 shadow-lg">
-          {mockNews
-            .filter(news => news.id === selectedNews)
-            .map(news => (
-              <div key={news.id}>
-                <h2 className="text-2xl font-bold mb-2">{news.title}</h2>
-                <p className="text-muted-foreground">{news.description}</p>
-              </div>
-            ))
-          }
-        </div>
-      )}
+      {/* Détails de l'actualité */}
+      <NewsDetails
+        news={selectedNews}
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+      />
 
       {/* Message si aucune actualité n'est sélectionnée */}
-      {!selectedNews && (
+      {!selectedNews && !dialogOpen && (
         <div className="text-center text-muted-foreground">
           Cliquez sur un marqueur pour voir les détails de l'actualité
         </div>
