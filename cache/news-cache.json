@@ -1,290 +1,305 @@
 {
-  "lastUpdate": "2025-04-18T12:35:27.043Z",
+  "lastUpdate": "2025-05-08T01:40:15.753Z",
   "data": [
     {
-      "id": "https://www.francetvinfo.fr/sports/foot/equipe-de-france/football-les-bleus-vont-disputer-leurs-trois-prochains-matchs-au-parc-des-princes_7194924.html",
+      "id": "https://www.camer.be/89196/30:27/cameroun-lurgence-dune-volonte-politique-pour-lautonomie-nationale-selon-emmanuel-mukam-cameroon.html",
       "position": {
-        "lat": 44.318905613419595,
-        "lng": 7.284185769001918
+        "lat": 46.63211054845168,
+        "lng": 3.8206485060107545
       },
-      "title": "Football : les Bleus vont disputer leurs trois prochains matchs au Parc des Princes",
+      "title": "CAMEROUN :: L’urgence d’une volonté politique pour l’autonomie nationale selon Emmanuel Mukam :: CAMEROON",
       "category": "geopolitique",
-      "description": "Ce choix est lié aux incertitudes autour de la concession du Stade de France. Les Bleus affronteront donc l'Islande, l'Azerbaïdjan et l'Ukraine à l'automne 2025 au Parc des Princes.",
-      "date": "2025-04-17T12:33:44Z",
+      "description": "Emmanuel Mukam, ingénieur civil camerounais de 72 ans, lance un cri\nd’alarme : « Les Camerounais peuvent bâtir eux-mêmes leur pays si\nla volonté politique les a...",
+      "date": "2025-05-06T22:37:02Z",
+      "source": "Camer.be",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.camer.be%2Fstorage%2Fphotos%2Fshares%2FCameroon%2FEmmanuel_Mukam070525500.jpg",
+      "content": "Emmanuel Mukam, ingénieur civil camerounais de 72 ans, lance un cri d’alarme : « Les Camerounais peuvent bâtir eux-mêmes leur pays si la volonté politique les accompagne. » \r\nLors d’une visite du nou… [+2036 chars]",
+      "readMoreUrl": "https://www.camer.be/89196/30:27/cameroun-lurgence-dune-volonte-politique-pour-lautonomie-nationale-selon-emmanuel-mukam-cameroon.html"
+    },
+    {
+      "id": "https://www.francetvinfo.fr/monde/afrique/algerie/l-ecrivain-franco-algerien-kamel-daoud-prix-goncourt-2024-vise-par-deux-mandats-d-arret-internationaux-emis-par-la-justice-algerienne_7231653.html",
+      "position": {
+        "lat": 45.56852884884795,
+        "lng": 1.6231100201579558
+      },
+      "title": "L'écrivain franco-algérien Kamel Daoud, prix Goncourt 2024, visé par deux mandats d'arrêt internationaux émis par la justice algérienne",
+      "category": "geopolitique",
+      "description": "\"Les motivations de tels mandats algériens ne pourraient qu’être politiques\", estime l'avocate de l'écrivain, Jacqueline Laffont, mardi, auprès de l'Agence de Radio France.",
+      "date": "2025-05-06T21:32:18Z",
       "source": "Francetvinfo.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2F6ktXH8ZCE6YKbFKNDGLShYa_mjo%2F0x761%3A5516x3861%2F1500x843%2F2025%2F04%2F17%2Fequipe-d-efrance-6800f4276d0a3788245764.jpg",
-      "content": "Les trois prochains matchs à domicile de l'équipe de France masculine de football se disputeront au Parc des Princes, annonce jeudi 17 avril le président de la Fédération française de football Philip… [+1665 chars]",
-      "readMoreUrl": "https://www.francetvinfo.fr/sports/foot/equipe-de-france/football-les-bleus-vont-disputer-leurs-trois-prochains-matchs-au-parc-des-princes_7194924.html"
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2FlZa32sQuEpTjGn2DFzl9LqFrmNw%2F0x47%3A5839x3329%2F1500x843%2F2025%2F05%2F06%2Fefespseventeen418334-681a7f0b31dca879665916.jpg",
+      "content": "L'écrivain franco-algérien Kamel Daoud, prix Goncourt 2024 pour son livre Houris (Gallimard), est visé par deux mandats d'arrêt internationaux émis par la justice algérienne, a appris mardi 6 mai l'A… [+1642 chars]",
+      "readMoreUrl": "https://www.francetvinfo.fr/monde/afrique/algerie/l-ecrivain-franco-algerien-kamel-daoud-prix-goncourt-2024-vise-par-deux-mandats-d-arret-internationaux-emis-par-la-justice-algerienne_7231653.html"
     },
     {
-      "id": "https://www.lepoint.fr/culture/le-petit-fils-de-jacques-brel-integre-le-casting-d-un-si-grand-soleil-sur-france-3--17-04-2025-2587584_3.php",
+      "id": "https://www.20minutes.fr/politique/4152171-20250506-lfi-ressort-deja-meute-livre-enquete-jean-luc-melenchon",
       "position": {
-        "lat": 45.784850282236384,
-        "lng": 6.326066065622844
+        "lat": 49.09116129836463,
+        "lng": 1.9510808485312445
       },
-      "title": "Le petit-fils de Jacques Brel intègre le casting d’un célèbre feuilleton sur France 3",
+      "title": "LFI : Ce qui ressort déjà de « La Meute », le livre-enquête sur Jean-Luc Mélenchon",
       "category": "geopolitique",
-      "description": "Stéphane Brel alterne les rôles au théâtre et à la télévision depuis de nombreuses années. Désormais, il aura rendez-vous avec 3,5 millions de téléspectateurs en intégrant l’équipe d'« Un si grand soleil ».",
-      "date": "2025-04-17T12:31:00Z",
-      "source": "Le Point",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fstatic.lpnt.fr%2Fimages%2F2025%2F04%2F17%2F27564320lpw-27564327-mega-une-jpg_11052313.jpg",
-      "content": "Stéphane Brel a choisi d'être acteur, un art que son grand-père Jacques Brel avait aussi pratiqué avec succès en parallèle de sa triomphale carrière d'auteur-compositeur interprète.\r\nLa newsletter cu… [+2496 chars]",
-      "readMoreUrl": "https://www.lepoint.fr/culture/le-petit-fils-de-jacques-brel-integre-le-casting-d-un-si-grand-soleil-sur-france-3--17-04-2025-2587584_3.php"
+      "description": "Excommunications, culte du chef, paranoïa et purges internes… Le livre « La Meute » sur Jean-Luc Mélenchon dévoile la face cachée de LFI",
+      "date": "2025-05-06T21:30:17Z",
+      "source": "20 Minutes",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.20mn.fr%2FzoN6KI4mQ9mNgztCtv1OBik%2F1444x920_founder-of-french-left-wing-la-france-insoumise-lfi-party-jean-luc-melenchon-surrounded-by-la-france-insoumise-nouveau-front-populaire-s-mp-delivers-a-speech-during-the-annual-may-day-march-in-paris-france-01-05-2025-labor-day-also-known-as-international-workers-day-or-may-day-is-observed-annually-on-01-may-worldwide-to-celebrate-the-economic-and-social-achievements-of-workers-and-fight-for-laborers-rights-manifestation-du-1er-mai-pour-la-fete-du-travail-et-journee-internationale-des-travailleurs-et-travailleuses-avec-les-syndicats-et-partis-politiques-de-gauche-entre-la-place-d-italie-et-la-place-de-la-nation-a-paris-france-01-05-2025-jee-1ermai-07-credit-j-e-e-sipa-2505030204",
+      "content": "«Celui qui doute trahit. » Cest lun des credos non officiels de Jean-Luc Mélenchon, fondateur de La France insoumise (LFI). Dans leur livre-enquête La Meute, à paraître mercredi, les journalistes Cha… [+3755 chars]",
+      "readMoreUrl": "https://www.20minutes.fr/politique/4152171-20250506-lfi-ressort-deja-meute-livre-enquete-jean-luc-melenchon"
     },
     {
-      "id": "https://www.frenchweb.fr/avec-la-reprise-de-mention-agorapulse-reunit-gestion-sociale-et-ecoute-web-dans-une-meme-plateforme/453539",
+      "id": "https://www.bfmtv.com/politique/la-france-insoumise/une-fiction-manuel-bompard-reagit-a-la-sortie-du-livre-enquete-sur-la-france-insoumise_AV-202505060881.html",
       "position": {
-        "lat": 50.51953053449891,
-        "lng": -0.9874687374919491
+        "lat": 43.31175270048605,
+        "lng": 1.8032650621931525
       },
-      "title": "Avec la reprise de Mention, Agorapulse réunit gestion sociale et écoute web dans une même plateforme",
+      "title": "\"Une fiction\": Manuel Bompard réagit à la sortie du livre-enquête sur la France insoumise",
       "category": "geopolitique",
-      "description": "Avec la reprise de Mention, spécialiste de la veille web et sociale, à la barre du tribunal de commerce, Agorapulse franchit un cap stratégique. Cette opération, conduite dans le cadre d’un redressement judiciaire, illustre l’ambition de consolider un outil c…",
-      "date": "2025-04-17T12:30:58Z",
-      "source": "Frenchweb.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.frenchweb.fr%2Fwp-content%2Fuploads%2F2025%2F04%2Femeric-ernoult-agorapulse.png",
-      "content": "Avec la reprise de Mention, spécialiste de la veille web et sociale, à la barre du tribunal de commerce, Agorapulse franchit un cap stratégique. Cette opération, conduite dans le cadre dun redresseme… [+5285 chars]",
-      "readMoreUrl": "https://www.frenchweb.fr/avec-la-reprise-de-mention-agorapulse-reunit-gestion-sociale-et-ecoute-web-dans-une-meme-plateforme/453539"
+      "description": "Invité sur le plateau de BFMTV, ce mardi 6 mai, Manuel Bompard a qualifié de \"fiction\" le livre-enquête sur Jean-Luc Mélenchon intitulé La Meute, dont la parution est prévu ce mercredi.",
+      "date": "2025-05-06T21:18:17Z",
+      "source": "BFMTV",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimages.bfmtv.com%2FFxQLvEbhTkJUTAsbGZkw80DuB-8%3D%2F0x0%3A1920x1080%2F1920x0%2Fimages%2FManuel-Bompard-2077368.jpg",
+      "content": "Invité sur le plateau de BFMTV, ce mardi 6 mai, Manuel Bompard a qualifié de \"fiction\" le livre-enquête sur Jean-Luc Mélenchon intitulé La Meute, dont la parution est prévu ce mercredi.\r\n\"Une fiction… [+734 chars]",
+      "readMoreUrl": "https://www.bfmtv.com/politique/la-france-insoumise/une-fiction-manuel-bompard-reagit-a-la-sortie-du-livre-enquete-sur-la-france-insoumise_AV-202505060881.html"
     },
     {
-      "id": "https://www.lemonde.fr/politique/article/2025/04/17/camille-pouponneau-maire-demissionnaire-et-visage-d-une-crise-de-la-vocation_6596957_823448.html",
+      "id": "https://www.francetvinfo.fr/societe/divorce-moins-cheres-les-procedures-en-ligne-tiennent-elles-leurs-promesses_7231635.html",
       "position": {
-        "lat": 42.84684725361671,
-        "lng": 6.440839157431616
+        "lat": 44.67337672240598,
+        "lng": -1.0416779433577767
       },
-      "title": "Camille Pouponneau, maire démissionnaire et visage d’une crise de la vocation",
+      "title": "Divorce : moins chères, les procédures en ligne tiennent-elles leurs promesses ?",
       "category": "geopolitique",
-      "description": "L’élue a quitté ses fonctions de la mairie de Pibrac en octobre 2024. Dans son livre « Maires, le grand gâchis », elle revient sur les raisons de sa démission, entre épuisement, sentiment d’impuissance et manque de moyens financiers et humains.",
-      "date": "2025-04-17T12:30:05Z",
+      "description": "Depuis qu'il n'est plus nécessaire de passer devant le juge pour acter un divorce, de nombreux couples optent pour des procédures en ligne à bas coût. Mais que valent-elles vraiment ? Rencontre avec un père de famille déçu de son expérience.",
+      "date": "2025-05-06T21:09:20Z",
+      "source": "Francetvinfo.fr",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2FxBSQjPi91KMx2ZQPg1qa0SPjCNo%2F13x0%3A1610x898%2F1500x843%2F2025%2F05%2F06%2Fdivorce-moins-cheres-les-procedures-en-ligne-tiennent-elles-leurs-promesses-681a79093b216048847731.jpg",
+      "content": "Depuis qu'il n'est plus nécessaire de passer devant le juge pour acter un divorce, de nombreux couples optent pour des procédures en ligne à bas coût. Mais que valent-elles vraiment ? Rencontre avec … [+1197 chars]",
+      "readMoreUrl": "https://www.francetvinfo.fr/societe/divorce-moins-cheres-les-procedures-en-ligne-tiennent-elles-leurs-promesses_7231635.html"
+    },
+    {
+      "id": "https://www.frandroid.com/marques/2607135_la-renault-5-electrique-triomphe-dans-un-pays-europeen-autre-que-la-france",
+      "position": {
+        "lat": 44.04408686476771,
+        "lng": -3.790779011983766
+      },
+      "title": "La Renault 5 électrique triomphe dans un pays européen autre que la France",
+      "category": "geopolitique",
+      "description": "L'Espagne vient de donner un signal fort au marché automobile européen : la Renault 5 électrique s'est hissée en première position des ventes en avril.",
+      "date": "2025-05-06T21:05:31Z",
+      "source": "Frandroid",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fc0.lestechnophiles.com%2Fimages.frandroid.com%2Fwp-content%2Fuploads%2F2025%2F05%2Fimage-15.jpg%3Fresize%3D1600%2C900%26key%3D212de42a%26watermark",
+      "content": "L’Espagne vient de donner un signal fort au marché automobile européen : la Renault 5 électrique s’est hissée en première position des ventes en avril.\r\nL’Europe est souvent réticente aux voitures él… [+4048 chars]",
+      "readMoreUrl": "https://www.frandroid.com/marques/2607135_la-renault-5-electrique-triomphe-dans-un-pays-europeen-autre-que-la-france"
+    },
+    {
+      "id": "https://www.liberation.fr/international/desinformation-pourquoi-paris-cible-storm-1516-la-campagne-russe-contre-lukraine-la-france-et-ses-allies-20250506_QVARI2JCVBBDJMVS6TLTSXJJCM/",
+      "position": {
+        "lat": 50.33864456149393,
+        "lng": 8.664734520827718
+      },
+      "title": "Désinformation: pourquoi Paris cible «Storm-1516», la campagne russe contre l’Ukraine, la France et ses alliés",
+      "category": "geopolitique",
+      "description": "Le Quai d’Orsay a condamné, mardi soir, «les acteurs russes et leurs relais» à l’origine de dizaines d’opérations depuis l’été 2023, analysées dans un rapport de Viginum.",
+      "date": "2025-05-06T20:49:58Z",
+      "source": "Libération",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.liberation.fr%2Fresizer%2Ft-_Qka8EocDlHAbo79wwU3eXVaQ%3D%2F1200x630%2Ffilters%3Aformat(jpg)%3Aquality(70)%3Afocal(3178x1484%3A3188x1494)%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fliberation%2FD2KSPRYEP5DPNH7VTKJAUDNVVU.jpg",
+      "content": "Une semaine après avoir publiquement attribué une série de cyberattaques, dont le piratage de la campagne Macron de 2017, au service de renseignement militaire de la Russie, le GRU, Paris fustige à n… [+5322 chars]",
+      "readMoreUrl": "https://www.liberation.fr/international/desinformation-pourquoi-paris-cible-storm-1516-la-campagne-russe-contre-lukraine-la-france-et-ses-allies-20250506_QVARI2JCVBBDJMVS6TLTSXJJCM/"
+    },
+    {
+      "id": "https://www.lemonde.fr/international/article/2025/05/06/l-inde-annonce-avoir-frappe-des-sites-terroristes-au-pakistan-avec-des-missiles_6603494_3210.html",
+      "position": {
+        "lat": 44.67327938851682,
+        "lng": 0.56078762569358
+      },
+      "title": "L’Inde annonce avoir frappé des « sites terroristes » au Pakistan avec des missiles",
+      "category": "geopolitique",
+      "description": "New Delhi a mené des « frappes aériennes » dans « trois régions » du Pakistan, a de son côté rapporté l’armée pakistanaise. La tension entre les deux pays est extrêmement forte depuis l’attentat qui a fait 26 morts, le 22 avril, dans la ville touristique de P…",
+      "date": "2025-05-06T20:49:40Z",
       "source": "Le Monde",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.lemde.fr%2F2025%2F04%2F16%2F0%2F0%2F5568%2F3712%2F1440%2F960%2F60%2F0%2Fd0e9c01_sirius-fs-upload-1-hdvaupinga12-1744803409084-maxpetiteshist003459.jpg",
-      "content": "Camille Pouponneau, à son domicile, en Bretagne, où elle est désormais installée, le 2 avril 2025. MATHIEU PATTIER/PHOTOPQR/OUEST FRANCE/MAXPPP\r\nCamille Pouponneau sest construite avec un dicton, « l… [+1489 chars]",
-      "readMoreUrl": "https://www.lemonde.fr/politique/article/2025/04/17/camille-pouponneau-maire-demissionnaire-et-visage-d-une-crise-de-la-vocation_6596957_823448.html"
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.lemde.fr%2F2025%2F05%2F06%2F0%2F0%2F4539%2F3026%2F1440%2F960%2F60%2F0%2F5ea6d2e_ftp-import-images-1-mhagdu9qnk6d-5812490-01-06.jpg",
+      "content": "Des membres des forces de sécurité frontalières indiennes à Wagah, lunique poste-frontière indo-pakistanais, le 6 mai 2025. NARINDER NANU / AFP\r\nLInde a frappé des « sites terroristes » au Pakistan a… [+1459 chars]",
+      "readMoreUrl": "https://www.lemonde.fr/international/article/2025/05/06/l-inde-annonce-avoir-frappe-des-sites-terroristes-au-pakistan-avec-des-missiles_6603494_3210.html"
     },
     {
-      "id": "https://www.lejournaldesentreprises.com/article/le-groupe-lactalis-depasse-les-30-milliards-deuros-de-chiffre-daffaires-dans-le-monde-en-2024-2117964",
+      "id": "https://www.lemonde.fr/international/live/2025/05/06/en-direct-guerres-au-proche-orient-une-frappe-israelienne-dans-le-centre-de-gaza-fait-au-moins-22-morts-selon-la-defense-civile-palestinienne_6602474_3210.html",
       "position": {
-        "lat": 45.71786287156518,
-        "lng": 6.652472369383372
+        "lat": 44.7960729299682,
+        "lng": 7.244793699080048
       },
-      "title": "Le groupe Lactalis dépasse les 30 milliards d’euros de chiffre d’affaires dans le monde en 2024",
+      "title": "En direct, guerres au Proche-Orient : une frappe israélienne dans le centre de Gaza fait au moins 22 morts, selon la défense civile palestinienne",
       "category": "geopolitique",
-      "description": "Le géant laitier lavallois n’a pas été ralenti par le contexte économique mondial. Son chiffre d’affaires progresse encore de 2,8 %. Lactalis conforte ainsi sa présence dans le top 10 agroalimentaire mondial.",
-      "date": "2025-04-17T12:27:36Z",
-      "source": "Le Journal des Entreprises",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.lejournaldesentreprises.com%2Fsites%2Flejournaldesentreprises.com%2Ffiles%2Fstyles%2Ffacebook_share%2Fpublic%2F2025-04%2FPour-se-dvelopper-Lactalis-rachte-des-entrepr-16148910.jpeg%3Fh%3Dd8f20186%26itok%3D5lBF47mz",
-      "content": "Depuis Laval, la famille Besnier a bâti un groupe industriel qui ne cesse de grandir, dannée en année. Depuis plus de quatre-vingt-dix ans, Lactalis produit plus, vend plus, rachète toujours dautres … [+4582 chars]",
-      "readMoreUrl": "https://www.lejournaldesentreprises.com/article/le-groupe-lactalis-depasse-les-30-milliards-deuros-de-chiffre-daffaires-dans-le-monde-en-2024-2117964"
-    },
-    {
-      "id": "https://www.data.gouv.fr/fr/datasets/6800f39c624cc715f17efd18/",
-      "position": {
-        "lat": 41.359926758958544,
-        "lng": 9.541454996111518
-      },
-      "title": "Indice de réparabilité (Vestel France) -Lave-Linge ES-NFB814EWDA-FR",
-      "category": "geopolitique",
-      "description": "Ce jeu de données répond aux spécifications du schéma \"Indice de réparabilité\" disponible sur le site [schema.data.gouv.fr](https://schema.data.gouv.fr/etalab/schema-indice-reparabilite)",
-      "date": "2025-04-17T12:27:08Z",
-      "source": "Gouv.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fstatic.data.gouv.fr%2Favatars%2Fad%2Fff381bc53549f68992544f864828fc-100.png",
-      "content": "Qualité des métadonnées :\r\nDescription des données non renseignée\r\nDocumentation des fichiers manquante\r\nLicence non renseignée\r\nFréquence de mise à jour non renseignée\r\nFormats de fichiers standards… [+109 chars]",
-      "readMoreUrl": "https://www.data.gouv.fr/fr/datasets/6800f39c624cc715f17efd18/"
-    },
-    {
-      "id": "https://www.lemonde.fr/planete/article/2025/04/17/etats-unis-l-administration-trump-interrompt-un-projet-eolien-au-large-de-new-york_6596956_3244.html",
-      "position": {
-        "lat": 49.065400962448294,
-        "lng": 6.042453047555973
-      },
-      "title": "Etats-Unis : l’administration Trump interrompt un projet éolien au large de New York",
-      "category": "geopolitique",
-      "description": "En construction depuis 2024, le projet est mis à l’arrêt par l’administration Trump en raison d’une analyse environnementale insuffisante de la part de l’administration Biden.",
-      "date": "2025-04-17T12:26:53Z",
+      "description": "« Le nombre de [morts] est monté à 22 et il y a des dizaines de blessés dans la frappe israélienne sur une école abritant des personnes déplacées dans le camp d’Al-Boureij », a déclaré à l’Agence France-Presse un responsable de cette organisation de secourist…",
+      "date": "2025-05-06T20:47:03Z",
       "source": "Le Monde",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.lemde.fr%2F2025%2F04%2F17%2F0%2F0%2F6000%2F4000%2F1440%2F960%2F60%2F0%2Fcd174ed_ftp-import-images-1-qzgkl2htf2as-5642595-01-06.jpg",
-      "content": "Devant les locaux de lentreprise norvégienne Equinor, le 28 octobre 2020, à Fornebu, en Norvège. HAKON MOSVOLD LARSEN / AFP\r\nLe grand groupe norvégien spécialiste de lénergie Equinor a annoncé, jeudi… [+2420 chars]",
-      "readMoreUrl": "https://www.lemonde.fr/planete/article/2025/04/17/etats-unis-l-administration-trump-interrompt-un-projet-eolien-au-large-de-new-york_6596956_3244.html"
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.lemde.fr%2F2025%2F05%2F06%2F0%2F0%2F8640%2F4320%2F1440%2F720%2F60%2F0%2F800a3d4_ftp-import-images-1-1vpowkfxghxa-8aeab8e461184290bce57f0602c95fa6-0-d5b5597907cd4a42b726c99abfcec241.jpg",
+      "content": "Une frappe israélienne sur une école abritant des personnes déplacées, à lest du camp de réfugiés dAl-Boureij, dans le centre de la bande de Gaza, a tué au moins 20 personnes mardi en fin daprès-midi… [+1188 chars]",
+      "readMoreUrl": "https://www.lemonde.fr/international/live/2025/05/06/en-direct-guerres-au-proche-orient-une-frappe-israelienne-dans-le-centre-de-gaza-fait-au-moins-22-morts-selon-la-defense-civile-palestinienne_6602474_3210.html"
     },
     {
-      "id": "https://www.francetvinfo.fr/societe/prisons/attaques-contre-des-prisons-12-actes-coordonnes-ont-ete-recenses_7194918.html",
+      "id": "https://www.dhnet.be/actu/monde/2025/05/06/attention-si-vous-avez-achete-ce-medicament-en-france-32-000-boites-ont-ete-rappelees-MEJTCSJ5CFCDREZMLRJGZHCANU/",
       "position": {
-        "lat": 49.627568850397864,
-        "lng": 5.8860942380410135
+        "lat": 47.006847302566904,
+        "lng": 2.64929881204905
       },
-      "title": "Attaques contre des prisons : 12 actes coordonnés ont été recensés",
+      "title": "Attention si vous avez acheté ce médicament en France, 32 000 boites ont été rappelées",
       "category": "geopolitique",
-      "description": "La voiture d'une agente d'une maison d'arrêt a été prise pour cible. Jeudi 17 avril, cette agression n'a pas été reliée aux attaques qui visent les prisons françaises depuis le 13 avril.",
-      "date": "2025-04-17T12:26:38Z",
+      "description": "De nombreuses boites de ce médicament contre l’hypertension et l’insuffisance cardiaque ont été rappelées en France. ...",
+      "date": "2025-05-06T20:31:39Z",
+      "source": "dh.be",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.dhnet.be%2Fresizer%2Fv2%2FW7G56FNPMBHUNF2AZ7MBJYSZGE.jpg%3Fauth%3D16c90f41d52eabdcbe905dfbdee118eebefce3935984b1d51178697a0ed9ea35%26width%3D1200%26height%3D630%26quality%3D85%26focal%3D3680%252C2456%26watermark%3Dhttps%253A%252F%252Fcloudfront-eu-central-1.images.arcpublishing.com%252Fipmgroup%252FDZNGDE46VVGXRGHD3TEI5RB3GM.png%253A100%253A0%252C559",
+      "content": "Au total, quatre lots de Lisinopril dosés à 5 mg sont concernés (lots 8172295, 8189879, 8172296, 8192737), soit 32.640 boîtes, selon un décompte obtenu auprès de l'ANSM.\r\nSilence total: quels sont se… [+869 chars]",
+      "readMoreUrl": "https://www.dhnet.be/actu/monde/2025/05/06/attention-si-vous-avez-achete-ce-medicament-en-france-32-000-boites-ont-ete-rappelees-MEJTCSJ5CFCDREZMLRJGZHCANU/"
+    },
+    {
+      "id": "https://www.nouvelobs.com/politique/20250506.OBS103628/a-l-assemblee-l-ombre-du-milliardaire-pierre-edouard-sterin-plane-au-dessus-d-un-sondage-en-faveur-de-bardella.html",
+      "position": {
+        "lat": 48.337619282432186,
+        "lng": 3.120935617420339
+      },
+      "title": "A l’Assemblée, l’ombre du milliardaire Pierre-Edouard Stérin plane au-dessus d’un sondage en faveur de Bardella",
+      "category": "geopolitique",
+      "description": "Arnaud Rérolle, directeur général du projet Periclès financé par le milliardaire Pierre-Edouard Stérin, a été entendu par la commission d’enquête parlementaire consacrée aux élections en France. Une audition qui intervient au lendemain de la publication d’un …",
+      "date": "2025-05-06T20:28:00Z",
+      "source": "L'Obs",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Ffocus.nouvelobs.com%2F2025%2F02%2F07%2F1320%2F0%2F6192%2F4128%2F1200%2F800%2F0%2F0%2F4637c31_sirius-fs-upload-1-ptwwb3d7dhkb-1738945114368-04-sterinxnobsxbelveze-abitbol-dscf5298-vdef-hd-srvb.jpeg",
+      "content": "Par \r\nLucas Burel\r\nPublié le\r\n6 mai 2025 à 22h28, mis à jour le\r\n6 mai 2025 à 22h34 \r\nPierre-Edouard Stérin dans ses bureaux de Waterloo, en Belgique, le lundi 27 janvier 2025. GUILLAUME BELVÈZE ABIT… [+1856 chars]",
+      "readMoreUrl": "https://www.nouvelobs.com/politique/20250506.OBS103628/a-l-assemblee-l-ombre-du-milliardaire-pierre-edouard-sterin-plane-au-dessus-d-un-sondage-en-faveur-de-bardella.html"
+    },
+    {
+      "id": "https://www.liberation.fr/international/moyen-orient/cecile-kohler-et-jacques-paris-emprisonnes-depuis-trois-ans-en-iran-la-seule-chose-qui-les-empeche-de-sombrer-cest-de-savoir-quon-ne-les-oublie-pas-20250506_464UQ2SVURFANCRE6J7TRYPLXA/",
+      "position": {
+        "lat": 46.62236059554671,
+        "lng": 8.214022827753404
+      },
+      "title": "Cécile Kohler et Jacques Paris, emprisonnés depuis trois ans en Iran : «La seule chose qui les empêche de sombrer, c’est de savoir qu’on ne les oublie pas»",
+      "category": "geopolitique",
+      "description": "Trois ans jour pour jour après l’arrestation de sa sœur et de son compagnon lors d’un voyage touristique en Iran, Noémie Kohler décrit l’épuisement croissant du couple et l’angoisse grandissante face à leur incertitude judiciaire.",
+      "date": "2025-05-06T20:01:32Z",
+      "source": "Libération",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.liberation.fr%2Fresizer%2FEj9xwlOkcMVad6havBXQdcd17jM%3D%2F1200x630%2Ffilters%3Aformat(jpg)%3Aquality(70)%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fliberation%2F3Y6ZRXNVGRDADII4WLQNRPKGLA.jpg",
+      "content": "Cécile Kohler et Jacques Paris sont les dernières victimes connues de la stratégie iranienne de diplomatie des otages. La professeure de lettres de 40 ans et son compagnon, ancien professeur de mathé… [+441 chars]",
+      "readMoreUrl": "https://www.liberation.fr/international/moyen-orient/cecile-kohler-et-jacques-paris-emprisonnes-depuis-trois-ans-en-iran-la-seule-chose-qui-les-empeche-de-sombrer-cest-de-savoir-quon-ne-les-oublie-pas-20250506_464UQ2SVURFANCRE6J7TRYPLXA/"
+    },
+    {
+      "id": "https://www.francetvinfo.fr/politique/l-assemblee-nationale-adopte-un-texte-demandant-la-liberation-immediate-de-l-ecrivain-franco-algerien-boualem-sansal_7231590.html",
+      "position": {
+        "lat": 45.66463282988814,
+        "lng": -1.8212013240480305
+      },
+      "title": "L'Assemblée nationale adopte un texte demandant la \"libération immédiate\" de l'écrivain franco-algérien Boualem Sansal",
+      "category": "geopolitique",
+      "description": "Le texte, sans valeur contraignante, a été adopté avec 307 voix contre 28. Les députés communistes se sont majoritairement abstenus et les insoumis ont voté contre.",
+      "date": "2025-05-06T20:01:19Z",
       "source": "Francetvinfo.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2Fpb5aWIQW6lrfHKZZvC9JgeaU7KE%2F0x0%3A1586x892%2F1500x843%2F2025%2F04%2F17%2Fvoiture-6800f2a8628a7270913448.jpg",
-      "content": "Dans la nuit du mercredi 16 au jeudi 17 avril, une agente en poste dans une maison d'arrêt d'Amiens (Somme) a vu son véhicule personnel dégradé et la boîte aux lettres de son domicile taguée. Un synd… [+842 chars]",
-      "readMoreUrl": "https://www.francetvinfo.fr/societe/prisons/attaques-contre-des-prisons-12-actes-coordonnes-ont-ete-recenses_7194918.html"
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2F5FXqXjhPxF8vyDT21tUy0gZBaLU%2F0x43%3A1024x619%2F1500x843%2F2025%2F05%2F06%2F000-par8316068-681a65dd02833127297251.jpg",
+      "content": "Pour : 307 voix. Contre : 28. Abstention : 4. L'Assemblée nationale a largement adopté, mardi 6 mai, la résolution appelant à la \"libération immédiate et inconditionnelle\" de Boualem Sansal. L'écriva… [+1599 chars]",
+      "readMoreUrl": "https://www.francetvinfo.fr/politique/l-assemblee-nationale-adopte-un-texte-demandant-la-liberation-immediate-de-l-ecrivain-franco-algerien-boualem-sansal_7231590.html"
     },
     {
-      "id": "https://www.francetvinfo.fr/replay-radio/tout-public/mario-vargas-llosa-et-tristan-egolf-ou-la-realite-sous-le-prisme-de-la-litterature_7161183.html",
+      "id": "https://www.francetvinfo.fr/sante/alimentation/alimentation-l-association-de-consommateurs-clcv-a-trouve-des-sucres-ajoutes-dans-40-des-150-plats-cuisines-qu-elle-a-analyses_7231584.html",
       "position": {
-        "lat": 49.89358335504378,
-        "lng": 6.94137649200703
+        "lat": 44.47716413572483,
+        "lng": -3.9841614972059656
       },
-      "title": "Mario Vargas Llosa et Tristan Egolf ou la réalité sous le prisme de la littérature",
+      "title": "Alimentation : l'association de consommateurs CLCV a trouvé des sucres ajoutés dans 40% des 150 plats cuisinés qu'elle a analysés",
       "category": "geopolitique",
-      "description": "Dans Tout Public du 14 avril 2025, la disparition de l’écrivain Mario Vargas Llosa avec le regard de Daniel Rondeau et d'Adrien Bosc qui dans \"L'invention de Tristan\" revient sur l’histoire d’un livre culte et de son auteur.",
-      "date": "2025-04-17T12:23:14Z",
+      "description": "Parmi les autres ingrédients qui n'étaient pas attendus dans ces plats frais et surgelés, on retrouve de l'eau, des additifs ou encore des quantités de sel importantes, relève l'association dans une étude publiée mardi.",
+      "date": "2025-05-06T20:01:17Z",
       "source": "Francetvinfo.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2FvDZv7aMqN1cMpypPG7oVPnoJQwk%2F0x64%3A3987x2305%2F1500x843%2F2025%2F04%2F14%2F000-dv589641-67fcb6806b80a808105167.jpg",
-      "content": "\"Un homme de convictions\", cest comme ça quétait souvent présenté lécrivain et prix Nobel de littérature Mario Vargas Llosa, décédé lundi 14 avril 2025 à lâge de 89 ans. Après avoir combattu les dict… [+3415 chars]",
-      "readMoreUrl": "https://www.francetvinfo.fr/replay-radio/tout-public/mario-vargas-llosa-et-tristan-egolf-ou-la-realite-sous-le-prisme-de-la-litterature_7161183.html"
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.francetvinfo.fr%2Fpictures%2FpHuzReyEYKi4zwWJRYSZuGgZTok%2F0x77%3A4300x2495%2F1500x843%2F2025%2F05%2F06%2Fmaxnewsspecial157564-681a69bf053bf005284601.jpg",
+      "content": "L'association CLCV a étudié la composition et les emballages de 150 plats cuisinés frais et surgelés entre 2020 et 2025. Parmi les enseignements tirés - que France Inter a pu consulter mardi 6 mai - … [+3415 chars]",
+      "readMoreUrl": "https://www.francetvinfo.fr/sante/alimentation/alimentation-l-association-de-consommateurs-clcv-a-trouve-des-sucres-ajoutes-dans-40-des-150-plats-cuisines-qu-elle-a-analyses_7231584.html"
     },
     {
-      "id": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/afrique/evenements/article/forum-ancrages-la-france-renforce-son-partenariat-avec-les-diasporas-africaines",
+      "id": "https://www.huffingtonpost.fr/culture/article/ncis-tony-et-ziva-la-serie-derivee-de-l-univers-ncis-se-devoile-et-elle-va-plaire-aux-fans-francais_249705.html",
       "position": {
-        "lat": 43.8267076196055,
-        "lng": 5.398033776658237
+        "lat": 45.928614451642616,
+        "lng": 2.3441830688242167
       },
-      "title": "Forum \"Ancrages\" - La France renforce son partenariat avec les diasporas africaines (17.04.25)",
+      "title": "« NCIS : Tony et Ziva » : la série dérivée de l’univers NCIS se dévoile, et elle va plaire aux fans français",
       "category": "geopolitique",
-      "description": "Le ministre de l'Europe et des Affaires étrangères, M. Jean-Noël Barrot, s'est rendu ce mercredi 16 avril à Marseille, pour la seconde édition du Forum « Ancrages », dédié à la promotion de l'entreprenariat entre les pays africains et la France. Organisé par …",
-      "date": "2025-04-17T12:22:06Z",
-      "source": "Gouv.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.diplomatie.gouv.fr%2Flocal%2Fcache-vignettes%2FL800xH400%2Fvisuel_defaut_une_fd-44916.jpg%3F1702480410",
-      "content": "Le ministre de l’Europe et des Affaires étrangères, M. Jean-Noël Barrot, s’est rendu ce mercredi 16 avril à Marseille, pour la seconde édition du Forum « Ancrages », dédié à la promotion de l’entrepr… [+3623 chars]",
-      "readMoreUrl": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/afrique/evenements/article/forum-ancrages-la-france-renforce-son-partenariat-avec-les-diasporas-africaines"
+      "description": "Une bande-annonce, un casting, mais surtout une intrigue qui se déroule en partie dans la capitale française ont été annoncés par Paramount+.",
+      "date": "2025-05-06T20:00:03Z",
+      "source": "Le HuffPost",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Ffocus.huffingtonpost.fr%2F2025%2F05%2F06%2F0%2F67%2F1495%2F841%2F1820%2F1023%2F75%2F0%2F82518d8_sirius-fs-upload-1-msrdp2q4ilbu-1746561172959-capture-da-a-cran-2025-05-06-215237.png",
+      "content": "SÉRIES TV - Un parfum parisien flotte dans lair. La plateforme de streaming Paramount+ a dévoilé de plus amples détails sur sa toute nouvelle série dérivée de lunivers NCIS centré autour des personna… [+3646 chars]",
+      "readMoreUrl": "https://www.huffingtonpost.fr/culture/article/ncis-tony-et-ziva-la-serie-derivee-de-l-univers-ncis-se-devoile-et-elle-va-plaire-aux-fans-francais_249705.html"
     },
     {
-      "id": "https://www.cathobel.be/2025/04/concours-gagnez-3x2-places-pour-le-concert-les-violons-de-bruxelles-a-la-ferme-du-biereau/",
+      "id": "https://www.nouvelobs.com/politique/20250506.OBS103627/municipales-a-paris-marine-tondelier-veut-l-union-la-plus-large-possible-de-la-gauche-face-a-la-droite.html",
       "position": {
-        "lat": 48.65526954487627,
-        "lng": -3.1145226217522817
+        "lat": 48.19878402270331,
+        "lng": 4.200233754997723
       },
-      "title": "Concours : Gagnez 3×2 places pour le concert « Les violons de Bruxelles » à la Ferme du Biéreau",
+      "title": "Municipales à Paris : Marine Tondelier veut l’union « la plus large possible » de la gauche face à la droite",
       "category": "geopolitique",
-      "description": "Tentez de remporter 3x2 places pour le concert \"Les violons de Bruxelles\" à la Ferme du Biéreau, le 13 mai à 20h30. La musique de Django Reinhardt est régulièrement célébrée […]",
-      "date": "2025-04-17T12:22:01Z",
-      "source": "Cathobel.be",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fcathobel.cdnartwhere.eu%2Fwp-content%2Fuploads%2F2025%2F04%2FConcours-format-article-Les-violons-de-Bruxelles-1024x576.png",
-      "content": "Tentez de remporter 3x2 places pour le concert \"Les violons de Bruxelles\" à la Ferme du Biéreau, le 13 mai à 20h30.\r\nLa musique de Django Reinhardt est régulièrement célébrée un peu partout dans le m… [+646 chars]",
-      "readMoreUrl": "https://www.cathobel.be/2025/04/concours-gagnez-3x2-places-pour-le-concert-les-violons-de-bruxelles-a-la-ferme-du-biereau/"
+      "description": "« Il y a ici le risque qu’une ville de gauche bascule à droite. On va tout faire pour que ça n’arrive pas. On n’a pas prévu de laisser les clés à Rachida Dati », a lancé la secrétaire nationale des Ecologistes lors d’une conférence de presse.",
+      "date": "2025-05-06T19:51:35Z",
+      "source": "L'Obs",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Ffocus.nouvelobs.com%2F2025%2F05%2F06%2F0%2F1969%2F6287%2F4191%2F1200%2F800%2F0%2F0%2F136ed44_sirius-fs-upload-1-4notcol3ctmv-1746560923986-000-36qk8j4.jpg",
+      "content": "Par \r\nLe Nouvel Obs avec AFP\r\nPublié le\r\n6 mai 2025 à 21h51\r\nMarien Tondelier à Paris, le 17 décembre 2024. LOU BENOIST / AFP\r\nLire plus tard \r\nCommenter\r\nGoogle Actualités\r\nPartager\r\nTemps de lectur… [+2673 chars]",
+      "readMoreUrl": "https://www.nouvelobs.com/politique/20250506.OBS103627/municipales-a-paris-marine-tondelier-veut-l-union-la-plus-large-possible-de-la-gauche-face-a-la-droite.html"
     },
     {
-      "id": "https://www.sofoot.com/breves/psg-arsenal-sera-une-demi-finale-de-ligue-des-champions-tres-particuliere",
+      "id": "https://www.liberation.fr/politique/boualem-sansal-lassemblee-nationale-adopte-un-texte-demandant-la-liberation-immediate-de-lecrivain-franco-algerien-20250506_C7SQIS5WAVASPENYQFFBY46JV4/",
       "position": {
-        "lat": 50.17916122843779,
-        "lng": 0.8525540848664077
+        "lat": 42.30584390379676,
+        "lng": 5.696509438032527
       },
-      "title": "PSG-Arsenal sera une demi-finale de Ligue des champions très particulière",
+      "title": "Boualem Sansal : l’Assemblée nationale adopte un texte demandant la «libération immédiate» de l’écrivain franco-algérien",
       "category": "geopolitique",
-      "description": "Un vent de fraîcheur pour la grande finale à Munich. On ressent une certaine excitation, alors que le dernier carré de…",
-      "date": "2025-04-17T12:21:22Z",
-      "source": "SO FOOT",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fsofoot.s3.eu-central-1.amazonaws.com%2Fwp-content%2Fuploads%2F2025%2F04%2F17152703%2F8806603-1400x933.jpg",
-      "content": "Un vent de fraîcheur pour la grande finale à Munich.\r\nOn ressent une certaine excitation, alors que le dernier carré de Ligue des champions pointe le bout de son nez. Alors que quatre pays seront rep… [+1551 chars]",
-      "readMoreUrl": "https://www.sofoot.com/breves/psg-arsenal-sera-une-demi-finale-de-ligue-des-champions-tres-particuliere"
+      "description": "Le texte, sans valeur contraignante, a été adopté ce mardi 6 mai avec 307 voix contre 28. Critiques, socialistes et écologistes ont toutefois voté pour. Les députés communistes se sont majoritairement abstenus et les insoumis ont voté contre.",
+      "date": "2025-05-06T19:48:58Z",
+      "source": "Libération",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.liberation.fr%2Fresizer%2FVH0FRAa402zYGV_JhXrwDkcslAc%3D%2F1200x630%2Ffilters%3Aformat(jpg)%3Aquality(70)%3Afocal(3265x1994%3A3275x2004)%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fliberation%2FWUQVFI4U7JDERMPYF2Y44IZXR4.jpg",
+      "content": "LAssemblée a largement adopté ce mardi 6 mai une résolution appelant à la «libération immédiate» de Boualem Sansal et à subordonner au respect des «engagements internationaux en matière de droits hum… [+2672 chars]",
+      "readMoreUrl": "https://www.liberation.fr/politique/boualem-sansal-lassemblee-nationale-adopte-un-texte-demandant-la-liberation-immediate-de-lecrivain-franco-algerien-20250506_C7SQIS5WAVASPENYQFFBY46JV4/"
     },
     {
-      "id": "https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rhone/lyon/j-avais-14-ans-je-me-suis-retrouvee-etre-l-objet-sexuel-d-un-homme-une-veliplanchiste-burgienne-de-haut-niveau-accuse-un-entraineur-lyonnais-de-viol-3140012.html",
+      "id": "https://www.lefigaro.fr/secteur/high-tech/paris-pointe-une-campagne-de-desinformation-russe-sophistiquee-20250506",
       "position": {
-        "lat": 50.56788974333576,
-        "lng": 2.0540535505729176
+        "lat": 48.82925893144766,
+        "lng": -0.7038637342236553
       },
-      "title": "\"J'avais 14 ans, je me suis retrouvée être l'objet sexuel d'un homme\". Une véliplanchiste burgienne de haut niveau accuse un entraîneur lyonnais de viol",
+      "title": "Les autorités françaises dénoncent une campagne de désinformation russe sophistiquée",
       "category": "geopolitique",
-      "description": "Elle avait 14 ans, lui 45. Dans un post Instagram, Anna Quenet explique le mécanisme qui aurait permis à son entraîneur de voile de la violer pendant plusieurs années en région lyonnaise. Victime de son propre déni et de témoins qui savaient mais n'ont rien d…",
-      "date": "2025-04-17T12:19:04Z",
-      "source": "Francetvinfo.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Ffrance3-regions.francetvinfo.fr%2Fimage%2F9xj1vq8wWhcMGbWZ3iwOiBCXn8w%2F930x620%2Fregions%2F2025%2F04%2F17%2Fanna-qnt-1564255175-2097446895342510473-8469105743-6800ebfb96e54983644885.jpg",
-      "content": "Elle avait 14 ans, lui 45. Dans un post Instagram, Anna Quenet explique le mécanisme qui aurait permis à son entraîneur de voile de la violer pendant plusieurs années en région lyonnaise. Victime de … [+5333 chars]",
-      "readMoreUrl": "https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rhone/lyon/j-avais-14-ans-je-me-suis-retrouvee-etre-l-objet-sexuel-d-un-homme-une-veliplanchiste-burgienne-de-haut-niveau-accuse-un-entraineur-lyonnais-de-viol-3140012.html"
+      "description": "L’offensive en ligne est «relayée notamment par l’extrême droite américaine», a souligné le ministre français des Affaires étrangères Jean-Noël Barrot.",
+      "date": "2025-05-06T19:48:08Z",
+      "source": "Lefigaro.fr",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fi.f1g.fr%2Fmedia%2Fcms%2F1200x630_crop%2F2025%2F05%2F06%2F8663f2eed86d3b9f2c708036e7bba91efb2f016f29f6bea1b6d12ffc0d451fba.JPG",
+      "content": "Loffensive en ligne est «relayée notamment par lextrême droite américaine», a souligné le ministre français des Affaires étrangères Jean-Noël Barrot.La guerre se mène sur le champ de bataille, mais a… [+3126 chars]",
+      "readMoreUrl": "https://www.lefigaro.fr/secteur/high-tech/paris-pointe-une-campagne-de-desinformation-russe-sophistiquee-20250506"
     },
     {
-      "id": "https://www.lavenir.net/regions/luxembourg/attert/2025/04/17/jumelage-alba-arlon-20-ans-dune-belle-amitie-SBSQJVEPYREIHFTJQGV56FHTKA/",
+      "id": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/russie/evenements/evenements-de-l-annee-2025/article/la-france-condamne-fermement-les-acteurs-russes-et-leurs-relais-impliques-dans",
       "position": {
-        "lat": 49.70803522311837,
-        "lng": 5.40121175797056
+        "lat": 46.219369834639764,
+        "lng": 1.7091380751650984
       },
-      "title": "Jumelage Alba Arlon: 20 ans d'une belle amitié",
+      "title": "La France condamne fermement les acteurs Russes et leurs relais impliqués dans les manœuvres du Storm-1516 (6 mai 2025)",
       "category": "geopolitique",
-      "description": "Depuis deux décennies, Alba et Arlon vivent un jumelage très heureux et riche en échanges. Des noces de porcelaine fêtées le 25 mai prochain. ...",
-      "date": "2025-04-17T12:16:00Z",
-      "source": "Lavenir.net",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.lavenir.net%2Fresizer%2Fv2%2FOZ45W3GY5BAA3LC5A22LX73ULI.jpg%3Fauth%3D79e850cbc782f6593a061df54031db92c547e33056e1bbeedaf140000f0c3411%26width%3D1200%26height%3D630%26quality%3D85%26focal%3D550%252C313%26watermark%3Dhttps%253A%252F%252Fcloudfront-eu-central-1.images.arcpublishing.com%252Fipmgroup%252FUVYY255VT5BDBHOGCTGBCGI364.png%253A100%253A0%252C558",
-      "content": "Une cinquantaine d'Albaesi seront présents au chef-lieu pour célébrer ces noces de porcelaine du 23 au 25 mai.\r\nPatty Schmit, échevine en charge des jumelages, précise: \"Ces jumelages sont une belle … [+2079 chars]",
-      "readMoreUrl": "https://www.lavenir.net/regions/luxembourg/attert/2025/04/17/jumelage-alba-arlon-20-ans-dune-belle-amitie-SBSQJVEPYREIHFTJQGV56FHTKA/"
-    },
-    {
-      "id": "https://www.latribune.fr/economie/international/tensions-entre-la-france-et-l-algerie-quels-sont-les-liens-economiques-entre-les-deux-pays-1023033.html",
-      "position": {
-        "lat": 48.893158048018584,
-        "lng": 1.9607439935109978
-      },
-      "title": "Tensions entre la France et l’Algérie : quels sont les liens économiques entre les deux pays ?",
-      "category": "geopolitique",
-      "description": "Les fortes tensions diplomatiques entre les deux pays ces derniers mois ont crispé leurs relations. Et ce, alors que la France et l’Algérie entretiennent des liens économiques toujours importants.",
-      "date": "2025-04-17T12:14:00Z",
-      "source": "La Tribune.fr",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fpictures.latribune.fr%2Fcdn-cgi%2Fimage%2F%2F205%2F2568205.jpg%3Ftwic%3Dv1%2Fcover%3D1200x675",
-      "content": "En visite d'État au Maroc en octobre dernier, le président Macron a réaffirmé que l'avenir du Sahara occidental s'inscrit « dans le cadre de la souveraineté marocaine ». Une prise de position très ma… [+629 chars]",
-      "readMoreUrl": "https://www.latribune.fr/economie/international/tensions-entre-la-france-et-l-algerie-quels-sont-les-liens-economiques-entre-les-deux-pays-1023033.html"
-    },
-    {
-      "id": "https://www.generation-nt.com/actualites/google-recherche-adresse-localisation-changement-2057224",
-      "position": {
-        "lat": 45.95912331462535,
-        "lng": 9.300357320978168
-      },
-      "title": "Adieu Google.fr ! Google change d'adresse, mais pas de panique pour vos recherches !",
-      "category": "geopolitique",
-      "description": "Une page se tourne pour l'adresse historique du moteur de recherche Google en France. La firme de Mountain View s'apprête à généraliser l'utilisation de son domaine principal \"google.com\" pour tous les utilisateurs, y compris ceux qui avaient l'habitude de pa…",
-      "date": "2025-04-17T12:10:01Z",
-      "source": "Génération NT",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimg.generation-nt.com%2Fgoogle-page-accueil_04B002A301705654.webp",
-      "content": "Adieu Google.fr et bonjour Google.com !\r\nL'adresse web google.fr, porte d'entrée familière pour des millions d'internautes français vers le moteur de recherche, va progressivement laisser sa place. G… [+2256 chars]",
-      "readMoreUrl": "https://www.generation-nt.com/actualites/google-recherche-adresse-localisation-changement-2057224"
-    },
-    {
-      "id": "https://www.lesnumeriques.com/montre-connectee/bon-plan-la-montre-connectee-huawei-watch-gt-3-pro-ceramique-bracelet-ceramique-4-etoiles-a-449-99-25-n235710.html",
-      "position": {
-        "lat": 46.90498582530543,
-        "lng": 1.7122877349085925
-      },
-      "title": "Actualité : Bon plan – La montre connectée Huawei Watch GT 3 Pro Céramique Bracelet céramique \"4 étoiles\" à 449,99 € (-25%)",
-      "category": "geopolitique",
-      "description": "La montre connectée Huawei Watch GT 3 Pro Céramique Bracelet céramique passe sous les 450 € chez Amazon Marketplace soit une baisse d'environ 25% sur le prix habituellement constaté.",
-      "date": "2025-04-17T12:10:00Z",
-      "source": "Les Numériques",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fcdn.lesnumeriques.com%2Foptim%2Ftest%2F18%2F185419%2F11241eff-huawei-watch-gt-3-pro-ceramic-une-luxueuse-montre-connectee-sportive-qui-mise-tout-sur-la-ceramique__1200_678__0-171-3519-2018_wtmk.jpeg",
-      "content": "Modèle concernéCe contenu porte spécifiquement sur le modèle : Bracelet céramique. D'autres déclinaisons existent et leurs prix sont indiqués dans les onglets du tableau ci-dessous.\r\nDéjà agressif su… [+2119 chars]",
-      "readMoreUrl": "https://www.lesnumeriques.com/montre-connectee/bon-plan-la-montre-connectee-huawei-watch-gt-3-pro-ceramique-bracelet-ceramique-4-etoiles-a-449-99-25-n235710.html"
-    },
-    {
-      "id": "https://www.caradisiac.com/des-byd-electriques-surpuissantes-et-surdouees-au-prix-d-une-renault-5-vraiment-215268.htm",
-      "position": {
-        "lat": 50.78605410040542,
-        "lng": 6.649702935690812
-      },
-      "title": "Des BYD électriques surpuissantes et surdouées au prix d'une Renault 5, vraiment ?",
-      "category": "geopolitique",
-      "description": "L’INFO DU JOUR – En y réfléchissant bien, les chiffres annoncés par BYD au sujet de ses deux nouveaux modèles Han L et Tang L lancés en Chine paraissent totalement dingues que ce soit en puissance, en capacité de charge rapide ou en prix. Ils ringardisent mêm…",
-      "date": "2025-04-17T12:08:02Z",
-      "source": "Caradisiac.com",
-      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fimages.caradisiac.com%2Flogos%2F8%2F3%2F0%2F8%2F288308%2FS8-des-byd-electriques-surpuissantes-et-surdouees-au-prix-d-une-renault-5-vraiment-215268.jpg",
-      "content": "Il y a quelques jours, Caradisiac venait observer de près la nouvelle Denza Z9 GT et lessayer brièvement. Avec 965 chevaux, une batterie de 100 kWh de capacité et une finition très poussée dans le dé… [+4088 chars]",
-      "readMoreUrl": "https://www.caradisiac.com/des-byd-electriques-surpuissantes-et-surdouees-au-prix-d-une-renault-5-vraiment-215268.htm"
-    },
-    {
-      "id": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/soudan/evenements/article/soudan-declaration-des-ministres-des-affaires-etrangeres-du-g7-marquant-deux",
-      "position": {
-        "lat": 47.75290151215391,
-        "lng": 7.708253254474889
-      },
-      "title": "Soudan - Déclaration des ministres des Affaires étrangères du G7 marquant deux ans depuis le début de la guerre dévastatrice au Soudan (15.04.25)",
-      "category": "geopolitique",
-      "description": "Nous, les ministres des Affaires étrangères du G7 représentant l'Allemagne, le Canada, les États-Unis d'Amérique, la France, l'Italie, le Japon et le Royaume-Uni, ainsi que la haute représentante de l'Union européenne, dénonçons sans équivoque le conflit, les…",
-      "date": "2025-04-17T12:06:23Z",
+      "description": "VIGINUM publie ce jour un rapport documentant un nombre significatif d'opérations informationnelles par des acteurs russes, utilisant le mode opératoire Storm 1516. \nDepuis 2023, ce mode opératoire informationnel (MOI) a été utilisé dans 77 manœuvres informat…",
+      "date": "2025-05-06T19:37:27Z",
       "source": "Gouv.fr",
       "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.diplomatie.gouv.fr%2Flocal%2Fcache-vignettes%2FL800xH400%2Fvisuel_defaut_une_fd-44916.jpg%3F1702480412",
-      "content": "Nous, les ministres des Affaires étrangères du G7 représentant l’Allemagne, le Canada, les États-Unis d’Amérique, la France, l’Italie, le Japon et le Royaume-Uni, ainsi que la haute représentante de … [+3849 chars]",
-      "readMoreUrl": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/soudan/evenements/article/soudan-declaration-des-ministres-des-affaires-etrangeres-du-g7-marquant-deux"
+      "content": "VIGINUM publie ce jour un rapport documentant un nombre significatif d’opérations informationnelles par des acteurs russes, utilisant le mode opératoire Storm 1516.\r\nDepuis 2023, ce mode opératoire i… [+1479 chars]",
+      "readMoreUrl": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/russie/evenements/evenements-de-l-annee-2025/article/la-france-condamne-fermement-les-acteurs-russes-et-leurs-relais-impliques-dans"
+    },
+    {
+      "id": "https://www.liberation.fr/international/cachemire-linde-et-le-pakistan-senlisent-dans-la-surenchere-20250506_JTNTI55VURFSFCJ3T7GLPXQDBY/",
+      "position": {
+        "lat": 46.99849388530297,
+        "lng": 4.862421053383106
+      },
+      "title": "Cachemire : l’Inde et le Pakistan s’enlisent dans la surenchère",
+      "category": "geopolitique",
+      "description": "Islamabad continue de nier toute implication dans l’attentat qui a tué 26 touristes dans le Cachemire indien le 22 avril et se dit toujours convaincu que l’Inde va procéder à une frappe aérienne.",
+      "date": "2025-05-06T19:37:25Z",
+      "source": "Libération",
+      "imageUrl": "/api/image-proxy?url=https%3A%2F%2Fwww.liberation.fr%2Fresizer%2FoezzF7dbw9hgN-KOxWC8Q8jsPUU%3D%2F1200x630%2Ffilters%3Aformat(jpg)%3Aquality(70)%3Afocal(2327x1383%3A2337x1393)%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fliberation%2FT35LZUWFR5DMXLSVSOQ5SCEX3U.jpg",
+      "content": "Tests de missiles au Pakistan, exercices de défense en Inde. Deux semaines après lattentat contre des touristes dans le Cachemire indien, la tension entre les deux pays voisins, dotés de larme nucléa… [+3585 chars]",
+      "readMoreUrl": "https://www.liberation.fr/international/cachemire-linde-et-le-pakistan-senlisent-dans-la-surenchere-20250506_JTNTI55VURFSFCJ3T7GLPXQDBY/"
     }
   ]
 }

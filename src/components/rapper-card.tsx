@@ -1,91 +1,92 @@
 'use client';
 
-import type { Rapper, BaseStats } from '@/types/rapper';
-import { cn } from '@/lib/utils';
+import type { Rapper } from '@/types/rapper';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 interface RapperCardProps {
   rapper: Rapper;
   selected?: boolean;
   onClick?: () => void;
+  emoji?: string;
 }
 
-function StatBar({ value = 0, label }: { value?: number; label: string | undefined }) {
-  const normalizedValue = Math.max(0, Math.min(100, value || 0));
-  
-  return (
-    <div className="relative group">
-      <button
-        className={cn(
-          'peer', 
-          'w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300',
-          'border-2 hover:scale-110',
-          normalizedValue >= 90 ? 'border-primary bg-primary/10 text-primary hover:bg-primary/20' :
-          normalizedValue >= 70 ? 'border-success bg-success/10 text-success hover:bg-success/20' :
-          normalizedValue >= 50 ? 'border-warning bg-warning/10 text-warning hover:bg-warning/20' :
-          'border-destructive bg-destructive/10 text-destructive hover:bg-destructive/20'
-        )}
-      >
-        <span className="font-bold text-lg tabular-nums">{normalizedValue}</span>
-      </button>
-      
-      {/* Tooltip au survol */}
-      <div className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 pointer-events-none peer-hover:opacity-100 transition-opacity duration-300">
-        <div className="bg-background border rounded-md px-2 py-1 text-sm whitespace-nowrap shadow-lg">
-          {label || 'N/A'}
-        </div>
-      </div>
-    </div>
-  );
+const EMOJI_ANIMATIONS = [
+  'animate-bounce',
+  'animate-spin-slow',
+  'animate-pulse',
+  'animate-wiggle',
+  'animate-swing',
+  'animate-flip',
+  'animate-float',
+  'animate-shake',
+];
+
+function getEmojiAnimation(key: string | number) {
+  let n = 0;
+  if (typeof key === 'string') {
+    for (let i = 0; i < key.length; i++) n += key.charCodeAt(i);
+  } else {
+    n = key;
+  }
+  return EMOJI_ANIMATIONS[n % EMOJI_ANIMATIONS.length];
 }
 
-export function RapperCard({ rapper, selected = false, onClick }: RapperCardProps) {
+function getTagline(name: string) {
+  const lower = name.toLowerCase();
+  if (lower.includes('freeze') || lower.includes('ice')) return 'Ice Cold Flow';
+  if (lower.includes('corleone')) return 'The Don of Bars';
+  if (lower.includes('meme')) return 'Certified Meme Machine';
+  if (lower.includes('queen')) return 'Royalty in the Booth';
+  if (lower.includes('king')) return 'King of the Streets';
+  if (lower.includes('young')) return 'Young & Wild';
+  if (lower.includes('drip')) return 'Drip God';
+  if (lower.includes('shadow')) return 'Moves in Silence';
+  return 'Street Legend';
+}
 
+export function RapperCard({ rapper, selected = false, onClick, emoji }: RapperCardProps) {
   return (
-    <div
+    <motion.div
+      layoutId={`rapper-${rapper.id}`}
       onClick={onClick}
-      className={cn(
-        'group relative overflow-hidden rounded-lg border bg-background transition-all duration-300',
-        selected ? 'border-primary ring-2 ring-primary ring-offset-2' : 'border-muted hover:border-primary/50',
-        onClick ? 'cursor-pointer' : ''
-      )}
+      tabIndex={0}
+      whileHover={{ scale: 1.09, rotate: selected ? 2 : 0 }}
+      whileTap={{ scale: 0.97, rotate: selected ? -2 : 0 }}
+      className={`relative group cursor-pointer select-none transition-all duration-300 outline-none border border-black rounded-2xl bg-white flex flex-col items-center justify-start overflow-visible min-h-[220px] max-h-[260px] min-w-[150px] max-w-[190px] p-3`}
+      style={{ fontFamily: 'var(--font-modern)', boxShadow: '6px 6px 0 0 #000' }}
+      aria-label={`Select ${rapper.name}`}
     >
-      <div className="relative aspect-[3/4] overflow-hidden rounded-t-lg bg-muted flex items-center justify-center">
+      {emoji && (
+        <span
+          className={`absolute -top-5 -right-5 text-4xl drop-shadow-2xl pointer-events-none select-none ${getEmojiAnimation(rapper.id)}`}
+          style={{ zIndex: 10 }}
+        >
+          {emoji}
+        </span>
+      )}
+      <div className="relative aspect-[1/1.2] w-full overflow-hidden rounded-xl flex items-center justify-center border border-black bg-gray-100 mb-2">
         {rapper.images.front ? (
           <Image
             src={rapper.images.front}
             alt={rapper.name}
             fill
+            sizes="120px"
+            className="object-cover"
+            style={{ borderRadius: 12 }}
             priority
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            sizes="(min-width: 1024px) 20vw, (min-width: 768px) 25vw, 33vw"
-            unoptimized
           />
         ) : (
-          <div className="text-4xl font-bold text-muted-foreground">
-            {rapper.name[0]}
-          </div>
+          <span className="text-5xl">{emoji || '🎤'}</span>
         )}
       </div>
-      
-      <div className="p-4 space-y-4">
-        <div>
-          <h3 className="font-bold text-lg">{rapper.name}</h3>
-          <p className="text-sm text-muted-foreground">{rapper.location.name}</p>
-        </div>
-        
-        <div className="grid grid-cols-3 gap-2">
-          {(Object.keys(rapper.stats) as Array<keyof typeof rapper.stats>)
-            .filter(key => key !== 'displayNames')
-            .map(key => (
-              <StatBar 
-                key={key}
-                label={rapper.stats.displayNames[key as keyof BaseStats]}
-                value={rapper.stats[key] as number}
-              />
-            ))}
-        </div>
+      <div className={`mt-2 mb-1 text-xl font-extrabold w-full truncate text-black`} style={{ fontFamily: 'var(--font-modern)' }}>
+        <span className="border-b-2 border-[var(--accent-purple)] pb-0.5">{rapper.name}</span>
       </div>
-    </div>
+      <div className="text-xs text-pink-300 font-bold italic text-center mt-1 w-full whitespace-nowrap overflow-hidden text-ellipsis">
+        {getTagline(rapper.name)}
+      </div>
+    </motion.div>
   );
 }
+

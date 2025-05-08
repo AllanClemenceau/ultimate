@@ -1,9 +1,71 @@
+@import './modern-font.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-6deg); }
+  50% { transform: rotate(6deg); }
+}
+.animate-wiggle {
+  animation: wiggle 4.8s infinite;
+}
+
+@keyframes swing {
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+.animate-swing {
+  animation: swing 5.6s infinite;
+}
+
+@keyframes flip {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  100% { transform: rotateY(0deg); }
+}
+.animate-flip {
+  animation: flip 6.4s infinite cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+.animate-float {
+  animation: float 3.2s infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+.animate-shake {
+  animation: shake 2.1s infinite;
+}
+
+/* Custom slow spin for emoji */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
  
 @layer base {
   :root {
+    --background: #fff;
+    --foreground: #111;
+    --accent-purple: #a259ff;
+    --black: #111;
+    --white: #fff;
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
  
@@ -74,3 +136,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.animate-slideIn {
+  animation: slideIn 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+}
+@keyframes slideIn {
+  0% { transform: translateY(-60%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+

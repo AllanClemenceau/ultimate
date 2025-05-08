@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+:root {
+  --font-modern: 'Space Grotesk', 'Inter', 'system-ui', sans-serif;
+  --accent-purple: #a259ff;
+}
+
+body {
+  font-family: var(--font-modern);
+  background: #fff;
+  color: #111;
+}

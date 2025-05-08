@@ -50,6 +50,8 @@ export interface Attack {
   type: 'damage' | 'heal' | 'buff' | 'debuff' | 'special';
   cooldown: number; // en tours
   energyCost: number; // coût en énergie
+  // Optionally used in UI for audio preview
+  sound?: string;
   
   // Effets
   damage?: number;
@@ -118,6 +120,10 @@ export interface Rapper {
   id: string;
   name: string;
   type: 'official' | 'ugc';
+  // Optionally used in UI for city display
+  city?: string;
+  // Optionally used in UI for description
+  description?: string;
   location: {
     name: string;
     coordinates: [number, number]; // [latitude, longitude]
